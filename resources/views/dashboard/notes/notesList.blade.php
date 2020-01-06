@@ -8,7 +8,7 @@
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="card">
                     <div class="card-header">
-                      <i class="fa fa-align-justify"></i>{{ __('Notes') }}</div>
+                      <i class="fa fa-align-justify">&nbsp;</i>{{ __('Notes') }}</div>
                     <div class="card-body">
                         <div class="row"> 
                           <a href="{{ route('notes.create') }}" class="btn btn-primary m-2">{{ __('Add Note') }}</a>
@@ -42,16 +42,16 @@
                               </td>
                               <td><strong>{{ $note->note_type }}</strong></td>
                               <td>
-                                <a href="{{ url('/notes/' . $note->id) }}" class="btn btn-block btn-primary">View</a>
+                                <a href="{{ url('/notes/' . $note->id) }}" class="btn btn-outline-info btn-sm">View</a>
                               </td>
                               <td>
-                                <a href="{{ url('/notes/' . $note->id . '/edit') }}" class="btn btn-block btn-primary">Edit</a>
+                                <a href="{{ url('/notes/' . $note->id . '/edit') }}" class="btn btn-outline-warning btn-sm">Edit</a>
                               </td>
                               <td>
                                 <form action="{{ route('notes.destroy', $note->id ) }}" method="POST">
                                     @method('DELETE')
                                     @csrf
-                                    <button class="btn btn-block btn-danger">Delete</button>
+                                    <button class="btn btn-outline-danger btn-sm">Delete</button>
                                 </form>
                               </td>
                             </tr>
@@ -67,7 +67,6 @@
         </div>
 
 @endsection
-
 
 @section('javascript')
 

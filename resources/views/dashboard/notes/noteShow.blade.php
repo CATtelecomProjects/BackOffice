@@ -5,7 +5,7 @@
         <div class="container-fluid">
           <div class="animated fadeIn">
             <div class="row">
-              <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="card">
                     <div class="card-header">
                       <i class="fa fa-align-justify"></i> Note: {{ $note->title }}</div>
@@ -26,7 +26,7 @@
                               {{ $note->status->name }}
                             </span>
                         </p>
-                        <h4>Note type:</h4>
+                        <h4>Note type: </h4>
                         <p>{{ $note->note_type }}</p>
                         <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Return') }}</a>
                     </div>

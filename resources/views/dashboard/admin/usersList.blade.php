@@ -5,7 +5,7 @@
         <div class="container-fluid">
           <div class="animated fadeIn">
             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="card">
                     <div class="card-header">
                       <i class="fa fa-align-justify"></i>{{ __('Users') }}</div>
@@ -30,17 +30,17 @@
                               <td>{{ $user->menuroles }}</td>
                               <td>{{ $user->email_verified_at }}</td>
                               <td>
-                                <a href="{{ url('/users/' . $user->id) }}" class="btn btn-block btn-primary">View</a>
+                                <a href="{{ url('/users/' . $user->id) }}" class="btn btn-outline-info btn-sm">View</a>
                               </td>
                               <td>
-                                <a href="{{ url('/users/' . $user->id . '/edit') }}" class="btn btn-block btn-primary">Edit</a>
+                                <a href="{{ url('/users/' . $user->id . '/edit') }}" class="btn btn-outline-warning btn-sm">Edit</a>
                               </td>
                               <td>
                                 @if( $you->id !== $user->id )
                                 <form action="{{ route('users.destroy', $user->id ) }}" method="POST">
                                     @method('DELETE')
                                     @csrf
-                                    <button class="btn btn-block btn-danger">Delete User</button>
+                                    <button class="btn btn-outline-danger btn-sm">Delete</button>
                                 </form>
                                 @endif
                               </td>

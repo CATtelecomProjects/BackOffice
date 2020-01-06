@@ -29,8 +29,8 @@
                             </tr>
                         </tbody>
                     </table>
-                    <button class="btn btn-primary" type="submit">Save</button>
-                    <a class="btn btn-primary" href="{{ route('roles.index') }}">Return</a>
+                    <button class="btn btn-success btn-sm" type="submit">Save</button>
+                    <a class="btn btn-warning btn-sm" href="{{ route('roles.index') }}">Return</a>
                 </form>
             </div>
           </div>
@@ -38,7 +38,6 @@
       </div>
     </div>
   </div>
-</div>
 
 @endsection
 

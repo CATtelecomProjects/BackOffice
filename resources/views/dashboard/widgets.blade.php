@@ -11,7 +11,7 @@
                       <div class="btn-group float-right">
                         <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <svg class="c-icon">
-                            <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                            <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                           </svg>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
@@ -30,7 +30,7 @@
                     <div class="card-body pb-0">
                       <button class="btn btn-transparent p-0 float-right" type="button">
                         <svg class="c-icon">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-location-pin"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-location-pin"></use>
                         </svg>
                       </button>
                       <div class="text-value-lg">9.823</div>
@@ -48,7 +48,7 @@
                       <div class="btn-group float-right">
                         <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <svg class="c-icon">
-                            <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                            <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                           </svg>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
@@ -68,7 +68,7 @@
                       <div class="btn-group float-right">
                         <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <svg class="c-icon">
-                            <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                            <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                           </svg>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
@@ -267,7 +267,7 @@
                     <div class="card-body p-3 d-flex align-items-center">
                       <div class="bg-primary p-3 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                         </svg>
                       </div>
                       <div>
@@ -283,7 +283,7 @@
                     <div class="card-body p-3 d-flex align-items-center">
                       <div class="bg-info p-3 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-laptop"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-laptop"></use>
                         </svg>
                       </div>
                       <div>
@@ -299,7 +299,7 @@
                     <div class="card-body p-3 d-flex align-items-center">
                       <div class="bg-warning p-3 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-moon"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-moon"></use>
                         </svg>
                       </div>
                       <div>
@@ -315,7 +315,7 @@
                     <div class="card-body p-3 d-flex align-items-center">
                       <div class="bg-danger p-3 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-bell"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-bell"></use>
                         </svg>
                       </div>
                       <div>
@@ -331,7 +331,7 @@
                     <div class="card-body p-3 d-flex align-items-center">
                       <div class="bg-primary p-3 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                         </svg>
                       </div>
                       <div>
@@ -341,7 +341,7 @@
                     </div>
                     <div class="card-footer px-3 py-2"><a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#"><span class="small font-weight-bold">View More</span>
                         <svg class="c-icon">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-chevron-right"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-chevron-right"></use>
                         </svg></a></div>
                   </div>
                 </div>
@@ -351,7 +351,7 @@
                     <div class="card-body p-3 d-flex align-items-center">
                       <div class="bg-info p-3 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-laptop"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-laptop"></use>
                         </svg>
                       </div>
                       <div>
@@ -361,7 +361,7 @@
                     </div>
                     <div class="card-footer px-3 py-2"><a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#"><span class="small font-weight-bold">View More</span>
                         <svg class="c-icon">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-chevron-right"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-chevron-right"></use>
                         </svg></a></div>
                   </div>
                 </div>
@@ -371,7 +371,7 @@
                     <div class="card-body p-3 d-flex align-items-center">
                       <div class="bg-warning p-3 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-moon"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-moon"></use>
                         </svg>
                       </div>
                       <div>
@@ -381,7 +381,7 @@
                     </div>
                     <div class="card-footer px-3 py-2"><a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#"><span class="small font-weight-bold">View More</span>
                         <svg class="c-icon">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-chevron-right"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-chevron-right"></use>
                         </svg></a></div>
                   </div>
                 </div>
@@ -391,7 +391,7 @@
                     <div class="card-body p-3 d-flex align-items-center">
                       <div class="bg-danger p-3 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-bell"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-bell"></use>
                         </svg>
                       </div>
                       <div>
@@ -401,7 +401,7 @@
                     </div>
                     <div class="card-footer px-3 py-2"><a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#"><span class="small font-weight-bold">View More</span>
                         <svg class="c-icon">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-chevron-right"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-chevron-right"></use>
                         </svg></a></div>
                   </div>
                 </div>
@@ -414,7 +414,7 @@
                     <div class="card-body p-0 d-flex align-items-center">
                       <div class="bg-primary p-4 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                         </svg>
                       </div>
                       <div>
@@ -430,7 +430,7 @@
                     <div class="card-body p-0 d-flex align-items-center">
                       <div class="bg-info p-4 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-laptop"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-laptop"></use>
                         </svg>
                       </div>
                       <div>
@@ -446,7 +446,7 @@
                     <div class="card-body p-0 d-flex align-items-center">
                       <div class="bg-warning p-4 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-moon"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-moon"></use>
                         </svg>
                       </div>
                       <div>
@@ -462,7 +462,7 @@
                     <div class="card-body p-0 d-flex align-items-center">
                       <div class="bg-danger p-4 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-bell"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-bell"></use>
                         </svg>
                       </div>
                       <div>
@@ -478,7 +478,7 @@
                     <div class="card-body p-0 d-flex align-items-center">
                       <div class="bg-primary py-4 px-5 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                         </svg>
                       </div>
                       <div>
@@ -494,7 +494,7 @@
                     <div class="card-body p-0 d-flex align-items-center">
                       <div class="bg-info py-4 px-5 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-laptop"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-laptop"></use>
                         </svg>
                       </div>
                       <div>
@@ -510,7 +510,7 @@
                     <div class="card-body p-0 d-flex align-items-center">
                       <div class="bg-warning py-4 px-5 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-moon"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-moon"></use>
                         </svg>
                       </div>
                       <div>
@@ -526,7 +526,7 @@
                     <div class="card-body p-0 d-flex align-items-center">
                       <div class="bg-danger py-4 px-5 mr-3">
                         <svg class="c-icon c-icon-xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-bell"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-bell"></use>
                         </svg>
                       </div>
                       <div>
@@ -544,7 +544,7 @@
                   <div class="card">
                     <div class="card-header bg-facebook content-center">
                       <svg class="c-icon c-icon-3xl text-white my-4">
-                        <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#facebook-f"></use>
+                        <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#facebook-f"></use>
                       </svg>
                       <div class="c-chart-wrapper">
                         <canvas id="social-box-chart-1" height="90"></canvas>
@@ -568,7 +568,7 @@
                   <div class="card">
                     <div class="card-header bg-twitter content-center">
                       <svg class="c-icon c-icon-3xl text-white my-4">
-                        <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#twitter"></use>
+                        <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#twitter"></use>
                       </svg>
                       <div class="c-chart-wrapper">
                         <canvas id="social-box-chart-2" height="90"></canvas>
@@ -592,7 +592,7 @@
                   <div class="card">
                     <div class="card-header bg-linkedin content-center">
                       <svg class="c-icon c-icon-3xl text-white my-4">
-                        <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#linkedin"></use>
+                        <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#linkedin"></use>
                       </svg>
                       <div class="c-chart-wrapper">
                         <canvas id="social-box-chart-3" height="90"></canvas>
@@ -619,7 +619,7 @@
                   <div class="card-body">
                     <div class="text-muted text-right mb-4">
                       <svg class="c-icon c-icon-2xl">
-                        <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-people"></use>
+                        <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-people"></use>
                       </svg>
                     </div>
                     <div class="text-value-lg">87.500</div><small class="text-muted text-uppercase font-weight-bold">Visitors</small>
@@ -632,7 +632,7 @@
                   <div class="card-body">
                     <div class="text-muted text-right mb-4">
                       <svg class="c-icon c-icon-2xl">
-                        <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-user-follow"></use>
+                        <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-user-follow"></use>
                       </svg>
                     </div>
                     <div class="text-value-lg">385</div><small class="text-muted text-uppercase font-weight-bold">New Clients</small>
@@ -645,7 +645,7 @@
                   <div class="card-body">
                     <div class="text-muted text-right mb-4">
                       <svg class="c-icon c-icon-2xl">
-                        <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-basket"></use>
+                        <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-basket"></use>
                       </svg>
                     </div>
                     <div class="text-value-lg">1238</div><small class="text-muted text-uppercase font-weight-bold">Products sold</small>
@@ -658,7 +658,7 @@
                   <div class="card-body">
                     <div class="text-muted text-right mb-4">
                       <svg class="c-icon c-icon-2xl">
-                        <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-chart-pie"></use>
+                        <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-chart-pie"></use>
                       </svg>
                     </div>
                     <div class="text-value-lg">28%</div><small class="text-muted text-uppercase font-weight-bold">Returning Visitors</small>
@@ -671,7 +671,7 @@
                   <div class="card-body">
                     <div class="text-muted text-right mb-4">
                       <svg class="c-icon c-icon-2xl">
-                        <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-speedometer"></use>
+                        <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-speedometer"></use>
                       </svg>
                     </div>
                     <div class="text-value-lg">5:34:11</div><small class="text-muted text-uppercase font-weight-bold">Avg. Time</small>
@@ -687,7 +687,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-people"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-people"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">87.500</div><small class="text-muted text-uppercase font-weight-bold">Visitors</small>
@@ -703,7 +703,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-user-follow"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-user-follow"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">385</div><small class="text-muted text-uppercase font-weight-bold">New Clients</small>
@@ -719,7 +719,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-basket"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-basket"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">1238</div><small class="text-muted text-uppercase font-weight-bold">Products sold</small>
@@ -735,7 +735,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-chart-pie"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-chart-pie"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">28%</div><small class="text-muted text-uppercase font-weight-bold">Returning Visitors</small>
@@ -751,7 +751,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-speedometer"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-speedometer"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">5:34:11</div><small class="text-muted text-uppercase font-weight-bold">Avg. Time</small>
@@ -767,7 +767,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-speech"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-speech"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">972</div><small class="text-muted text-uppercase font-weight-bold">Comments</small>
@@ -786,7 +786,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-people"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-people"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">87.500</div><small class="text-muted text-uppercase font-weight-bold">Visitors</small>
@@ -802,7 +802,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-user-follow"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-user-follow"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">385</div><small class="text-muted text-uppercase font-weight-bold">New Clients</small>
@@ -818,7 +818,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-basket"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-basket"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">1238</div><small class="text-muted text-uppercase font-weight-bold">Products sold</small>
@@ -834,7 +834,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-chart-pie"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-chart-pie"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">28%</div><small class="text-muted text-uppercase font-weight-bold">Returning Visitors</small>
@@ -850,7 +850,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-speedometer"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-speedometer"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">5:34:11</div><small class="text-muted text-uppercase font-weight-bold">Avg. Time</small>
@@ -866,7 +866,7 @@
                     <div class="card-body">
                       <div class="text-muted text-right mb-4">
                         <svg class="c-icon c-icon-2xl">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-speech"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-speech"></use>
                         </svg>
                       </div>
                       <div class="text-value-lg">972</div><small class="text-muted text-uppercase font-weight-bold">Comments</small>
@@ -885,7 +885,7 @@
 @endsection
 
 @section('javascript')
-    <script src="{{ asset('js/Chart.min.js') }}"></script>
-    <script src="{{ asset('js/coreui-chartjs.js') }}"></script>
-    <script src="{{ asset('js/widgets.js') }}"></script>
+    <script src="{{ asset('/js/Chart.min.js') }}"></script>
+    <script src="{{ asset('/js/coreui-chartjs.bundle.js') }}"></script>
+    <script src="{{ asset('/js/widgets.js') }}"></script>
 @endsection

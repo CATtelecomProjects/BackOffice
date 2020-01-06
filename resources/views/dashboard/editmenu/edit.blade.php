@@ -43,7 +43,7 @@
                                     <table class="table">
                                     @foreach($roles as $role)
                                         <tr>
-                                            <td>
+                                            <td class="text-center">
                                                 <?php
                                                     $temp = false;
                                                     foreach($menuroles as $menurole){
@@ -51,11 +51,15 @@
                                                             $temp = true;
                                                         }
                                                     }
+                                                    echo "<label class='c-switch c-switch-label c-switch-pill c-switch-success'>";
                                                     if($temp === true){
-                                                        echo '<input checked type="checkbox" name="role[]" value="' . $role . '" class="form-control"/>';
+                                                        
+                                                        echo '<input checked type="checkbox" name="role[]" value="' . $role . '" class="c-switch-input"/><span class="c-switch-slider" data-checked="&#x2713" data-unchecked="&#x2715">';
+                                                        
                                                     }else{
-                                                        echo '<input type="checkbox" name="role[]" value="' . $role . '" class="form-control"/>';
+                                                        echo '<input  type="checkbox" name="role[]" value="' . $role . '" class="c-switch-input"/><span class="c-switch-slider" data-checked="&#x2713" data-unchecked="&#x2715">';
                                                     }
+                                                    echo "</label>";
                                                 ?>
                                             </td>
                                             <td>
@@ -149,8 +153,8 @@
                             </tr>
                         </tbody>
                     </table>
-                    <button class="btn btn-primary" type="submit">Save</button>
-                    <a class="btn btn-primary" href="{{ route('menu.index', ['menu' => $menuElement->menu_id]) }}">Return</a>
+                    <button class="btn btn-success btn-sm" type="submit">Save</button>
+                    <a class="btn btn-warning btn-sm" href="{{ route('menu.index', ['menu' => $menuElement->menu_id]) }}">Return</a>
                 </form>
             </div>
           </div>
@@ -158,14 +162,11 @@
       </div>
     </div>
   </div>
-</div>
 
 @endsection
 
 @section('javascript')
 <script src="{{ asset('js/axios.min.js') }}"></script> 
 <script src="{{ asset('js/menu-edit.js') }}"></script> 
-
-
 
 @endsection

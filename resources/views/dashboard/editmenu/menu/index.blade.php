@@ -11,7 +11,7 @@
           <div class="card-header"><h4>Menus list</h4></div>
             <div class="card-body">
                 <div class="row mb-3 ml-3">
-                    <a class="btn btn-lg btn-primary" href="{{ route('menu.menu.create') }}">Add new menu</a>
+                    <a class="btn btn-success" href="{{ route('menu.menu.create') }}">Add new menu</a>
                 </div>
                 <table class="table table-striped table-bordered datatable">
                     <thead>
@@ -28,13 +28,13 @@
                                     {{ $menu1->name }}
                                 </td>
                                 <td>
-                                    <a class="btn btn-primary" href="{{ route('menu.index', ['menu' => $menu1->id] ) }}">Show</a>
+                                    <a class="btn btn-primary btn-sm" href="{{ route('menu.index', ['menu' => $menu1->id] ) }}">Show</a>
                                 </td>
                                 <td>
-                                    <a class="btn btn-primary" href="{{ route('menu.menu.edit', ['id' => $menu1->id] ) }}">Edit</a>
+                                    <a class="btn btn-info btn-sm" href="{{ route('menu.menu.edit', ['id' => $menu1->id] ) }}">Edit</a>
                                 </td>
                                 <td>
-                                    <a class="btn btn-danger" href="{{ route('menu.menu.delete', ['id' => $menu1->id] ) }}">Delete</a>
+                                    <a class="btn btn-danger btn-sm" href="{{ route('menu.menu.delete', ['id' => $menu1->id] ) }}">Delete</a>
                                 </td>
                             </tr>
                         @endforeach
@@ -47,7 +47,7 @@
       </div>
     </div>
   </div>
-</div>
+
 
 @endsection
 

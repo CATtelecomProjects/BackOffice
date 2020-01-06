@@ -11,7 +11,7 @@
           <div class="card-header"><h4>Menu Elements</h4></div>
             <div class="card-body">
                 <div class="row mb-3 ml-3">
-                    <a class="btn btn-lg btn-primary" href="{{ route('menu.create') }}">Add new menu element</a>
+                    <a class="btn btn-success" href="{{ route('menu.create') }}">Add new menu element</a>
                 </div>
                 <div class="row mb-3">
                     <div class="col-sm-4">
@@ -46,19 +46,19 @@
             echo '<td></td>';
             echo '<td>' . $data['sequence'] . '</td>';
             echo '<td>';
-            echo '<a class="btn btn-success" href="' . route('menu.up', ['id' => $data['id']]) . '"><i class="cil-arrow-thick-top"></i></a>';
+            echo '<a class="btn btn-success btn-sm" href="' . route('menu.up', ['id' => $data['id']]) . '"><i class="cil-arrow-thick-top"></i></a>';
             echo '</td>';
             echo '<td>';
-            echo '<a class="btn btn-success" href="' . route('menu.down', ['id' => $data['id']]) . '"><i class="cil-arrow-thick-bottom"></i></a>';
+            echo '<a class="btn btn-success btn-sm" href="' . route('menu.down', ['id' => $data['id']]) . '"><i class="cil-arrow-thick-bottom"></i></a>';
             echo '</td>';
             echo '<td>';
-            echo '<a class="btn btn-primary" href="' . route('menu.show', ['id' => $data['id']]) . '">Show</a>';
+            echo '<a class="btn btn-primary btn-sm" href="' . route('menu.show', ['id' => $data['id']]) . '">Show</a>';
             echo '</td>';
             echo '<td>';
-            echo '<a class="btn btn-primary" href="' . route('menu.edit', ['id' => $data['id']]) . '">Edit</a>';
+            echo '<a class="btn btn-info btn-sm" href="' . route('menu.edit', ['id' => $data['id']]) . '">Edit</a>';
             echo '</td>';
             echo '<td>';
-            echo '<a class="btn btn-danger" href="' . route('menu.delete', ['id' => $data['id']]) . '">Delete</a>';
+            echo '<a class="btn btn-danger btn-sm" href="' . route('menu.delete', ['id' => $data['id']]) . '">Delete</a>';
             echo '</td>';
             echo '</tr>';
             renderDropdownForMenuEdit( $data['elements'], $role );
@@ -74,19 +74,19 @@
                     echo '<td>' . $data[$i]['href'] . '</td>';
                     echo '<td>' . $data[$i]['sequence'] . '</td>';
                     echo '<td>';
-                    echo '<a class="btn btn-success" href="' . route('menu.up', ['id' => $data[$i]['id']]) . '"><i class="cil-arrow-thick-top"></i></a>';
+                    echo '<a class="btn btn-success btn-sm" href="' . route('menu.up', ['id' => $data[$i]['id']]) . '"><i class="cil-arrow-thick-top"></i></a>';
                     echo '</td>';
                     echo '<td>';
-                    echo '<a class="btn btn-success" href="' . route('menu.down', ['id' => $data[$i]['id']]) . '"><i class="cil-arrow-thick-bottom"></i></a>';
+                    echo '<a class="btn btn-success btn-sm" href="' . route('menu.down', ['id' => $data[$i]['id']]) . '"><i class="cil-arrow-thick-bottom"></i></a>';
                     echo '</td>';
                     echo '<td>';
-                    echo '<a class="btn btn-primary" href="' . route('menu.show', ['id' => $data[$i]['id']]) . '">Show</a>';
+                    echo '<a class="btn btn-primary btn-sm" href="' . route('menu.show', ['id' => $data[$i]['id']]) . '">Show</a>';
                     echo '</td>';
                     echo '<td>';
-                    echo '<a class="btn btn-primary" href="' . route('menu.edit', ['id' => $data[$i]['id']]) . '">Edit</a>';
+                    echo '<a class="btn btn-info btn-sm" href="' . route('menu.edit', ['id' => $data[$i]['id']]) . '">Edit</a>';
                     echo '</td>';
                     echo '<td>';
-                    echo '<a class="btn btn-danger" href="' . route('menu.delete', ['id' => $data[$i]['id']]) . '">Delete</a>';
+                    echo '<a class="btn btn-danger btn-sm" href="' . route('menu.delete', ['id' => $data[$i]['id']]) . '">Delete</a>';
                     echo '</td>';
                     echo '</tr>';
                 }elseif( $data[$i]['slug'] === 'dropdown' ){
@@ -142,23 +142,23 @@
                                 {{ $menuel['sequence'] }}
                             </td>
                             <td>
-                                <a class="btn btn-success" href="{{ route('menu.up', ['id' => $menuel['id']]) }}">
+                                <a class="btn btn-success btn-sm" href="{{ route('menu.up', ['id' => $menuel['id']]) }}">
                                     <i class="cil-arrow-thick-top"></i> 
                                 </a>
                             </td>
                             <td>
-                                <a class="btn btn-success" href="{{ route('menu.down', ['id' => $menuel['id']]) }}">
+                                <a class="btn btn-success btn-sm" href="{{ route('menu.down', ['id' => $menuel['id']]) }}">
                                     <i class="cil-arrow-thick-bottom"></i>  
                                 </a>
                             </td>
                             <td>
-                                <a class="btn btn-primary" href="{{ route('menu.show', ['id' => $menuel['id']]) }}">Show</a>
+                                <a class="btn btn-primary btn-sm" href="{{ route('menu.show', ['id' => $menuel['id']]) }}">Show</a>
                             </td>
                             <td>
-                                <a class="btn btn-primary" href="{{ route('menu.edit', ['id' => $menuel['id']]) }}">Edit</a>
+                                <a class="btn btn-info btn-sm" href="{{ route('menu.edit', ['id' => $menuel['id']]) }}">Edit</a>
                             </td>
                             <td>
-                                <a class="btn btn-danger" href="{{ route('menu.delete', ['id' => $menuel['id']]) }}">Delete</a>
+                                <a class="btn btn-danger btn-sm" href="{{ route('menu.delete', ['id' => $menuel['id']]) }}">Delete</a>
                             </td>
                         </tr>
                     @elseif($menuel['slug'] === 'dropdown')
@@ -188,23 +188,23 @@
                                 {{ $menuel['sequence'] }}
                             </td>
                             <td>
-                                <a class="btn btn-success" href="{{ route('menu.up', ['id' => $menuel['id']]) }}">
+                                <a class="btn btn-success btn-sm" href="{{ route('menu.up', ['id' => $menuel['id']]) }}">
                                     <i class="cil-arrow-thick-top"></i> 
                                 </a>
                             </td>
                             <td>
-                                <a class="btn btn-success" href="{{ route('menu.down', ['id' => $menuel['id']]) }}">
+                                <a class="btn btn-success btn-sm" href="{{ route('menu.down', ['id' => $menuel['id']]) }}">
                                     <i class="cil-arrow-thick-bottom"></i>  
                                 </a>
                             </td>
                             <td>
-                                <a class="btn btn-primary" href="{{ route('menu.show', ['id' => $menuel['id']]) }}">Show</a>
+                                <a class="btn btn-primary btn-sm" href="{{ route('menu.show', ['id' => $menuel['id']]) }}">Show</a>
                             </td>
                             <td>
-                                <a class="btn btn-primary" href="{{ route('menu.edit', ['id' => $menuel['id']]) }}">Edit</a>
+                                <a class="btn btn-info btn-sm" href="{{ route('menu.edit', ['id' => $menuel['id']]) }}">Edit</a>
                             </td>
                             <td>
-                                <a class="btn btn-danger" href="{{ route('menu.delete', ['id' => $menuel['id']]) }}">Delete</a>
+                                <a class="btn btn-danger btn-sm" href="{{ route('menu.delete', ['id' => $menuel['id']]) }}">Delete</a>
                             </td>
                         </tr>
                     @endif
@@ -219,7 +219,6 @@
       </div>
     </div>
   </div>
-</div>
 
 @endsection
 

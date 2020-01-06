@@ -30,8 +30,16 @@ if(!function_exists('renderDropdown')){
 }
 ?>
 
-      <div class="c-sidebar-brand"><img class="c-sidebar-brand-full" src="/assets/brand/coreui-base-white.svg" width="118" height="46" alt="CoreUI Logo"><img class="c-sidebar-brand-minimized" src="assets/brand/coreui-signet-white.svg" width="118" height="46" alt="CoreUI Logo"></div>
-        <ul class="c-sidebar-nav">
+      <div class="c-sidebar-brand"><img class="c-sidebar-brand-full" src="/assets/img/logo.gif" width="80" height="24" alt="Logo"><img class="c-sidebar-brand-minimized" src="/assets/img/logo.gif" width="45" height="14" alt="CAT DW/DM Back Office"> </div>
+        <ul class="c-sidebar-nav">        
+{{--             
+            <li class="c-sidebar-nav-item bg-youtube"> <strong>
+                <a class="c-sidebar-nav-link" href="/">
+                <i class="cil-home c-sidebar-nav-icon"></i>{{ config('app.name') }}
+                </a>
+            </strong>
+            </li> --}}
+
         @if(isset($appMenus['sidebar menu']))
             @foreach($appMenus['sidebar menu'] as $menuel)
                 @if($menuel['slug'] === 'link')

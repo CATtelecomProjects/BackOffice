@@ -37,8 +37,10 @@
                                     <table class="table">
                                     @foreach($roles as $role)
                                         <tr>
-                                            <td>
-                                                <input type="checkbox" name="role[]" value="{{ $role }}" class="form-control"/>
+                                            <td class="text-center">
+                                                <label class='c-switch c-switch-label c-switch-pill c-switch-success'>
+                                                <input type="checkbox" name="role[]" value="{{ $role }}"  class="c-switch-input"/><span class="c-switch-slider" data-checked="&#x2713" data-unchecked="&#x2715">
+                                            </label>
                                             </td>
                                             <td>
                                                 {{ $role }}
@@ -100,8 +102,8 @@
                             </tr>
                         </tbody>
                     </table>
-                    <button class="btn btn-primary" type="submit">Save</button>
-                    <a class="btn btn-primary" href="{{ route('menu.index') }}">Return</a>
+                    <button class="btn btn-success btn-sm" type="submit">Save</button>
+                    <a class="btn btn-warning btn-sm" href="{{ route('menu.index') }}">Return</a>
                 </form>
             </div>
           </div>
@@ -109,7 +111,6 @@
       </div>
     </div>
   </div>
-</div>
 
 @endsection
 

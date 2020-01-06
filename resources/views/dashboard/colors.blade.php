@@ -93,6 +93,6 @@
 
 
 @section('javascript')
-    <script src="{{ asset('js/colors.js') }}"></script>
+    <script src="{{ asset('/js/colors.js') }}"></script>
 @endsection
 

@@ -6,12 +6,12 @@
             <div class="fade-in">
               <div class="row">
                 <div class="col-sm-6 col-lg-3">
-                  <div class="card text-white bg-primary">
+                  <div class="card text-white bg-success">
                     <div class="card-body pb-0">
                       <div class="btn-group float-right">
                         <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <svg class="c-icon">
-                            <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                            <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                           </svg>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
@@ -30,7 +30,7 @@
                     <div class="card-body pb-0">
                       <button class="btn btn-transparent p-0 float-right" type="button">
                         <svg class="c-icon">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-location-pin"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-location-pin"></use>
                         </svg>
                       </button>
                       <div class="text-value-lg">9.823</div>
@@ -48,7 +48,7 @@
                       <div class="btn-group float-right">
                         <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <svg class="c-icon">
-                            <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                            <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                           </svg>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
@@ -68,7 +68,7 @@
                       <div class="btn-group float-right">
                         <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <svg class="c-icon">
-                            <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
+                            <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-settings"></use>
                           </svg>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
@@ -95,7 +95,7 @@
                     <div class="col-sm-7 d-none d-md-block">
                       <button class="btn btn-primary float-right" type="button">
                         <svg class="c-icon">
-                          <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-cloud-download"></use>
+                          <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-cloud-download"></use>
                         </svg>
                       </button>
                       <div class="btn-group btn-group-toggle float-right mr-3" data-toggle="buttons">
@@ -158,7 +158,7 @@
                   <div class="card">
                     <div class="card-header bg-facebook content-center">
                       <svg class="c-icon c-icon-3xl text-white my-4">
-                        <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#facebook-f"></use>
+                        <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#facebook-f"></use>
                       </svg>
                       <div class="c-chart-wrapper">
                         <canvas id="social-box-chart-1" height="90"></canvas>
@@ -182,7 +182,7 @@
                   <div class="card">
                     <div class="card-header bg-twitter content-center">
                       <svg class="c-icon c-icon-3xl text-white my-4">
-                        <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#twitter"></use>
+                        <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#twitter"></use>
                       </svg>
                       <div class="c-chart-wrapper">
                         <canvas id="social-box-chart-2" height="90"></canvas>
@@ -206,7 +206,7 @@
                   <div class="card">
                     <div class="card-header bg-linkedin content-center">
                       <svg class="c-icon c-icon-3xl text-white my-4">
-                        <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#linkedin"></use>
+                        <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#linkedin"></use>
                       </svg>
                       <div class="c-chart-wrapper">
                         <canvas id="social-box-chart-3" height="90"></canvas>
@@ -350,7 +350,7 @@
                           <div class="progress-group">
                             <div class="progress-group-header">
                               <svg class="c-icon progress-group-icon">
-                                <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-user"></use>
+                                <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-user"></use>
                               </svg>
                               <div>Male</div>
                               <div class="ml-auto font-weight-bold">43%</div>
@@ -364,7 +364,7 @@
                           <div class="progress-group mb-5">
                             <div class="progress-group-header">
                               <svg class="c-icon progress-group-icon">
-                                <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-user-female"></use>
+                                <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-user-female"></use>
                               </svg>
                               <div>Female</div>
                               <div class="ml-auto font-weight-bold">37%</div>
@@ -378,7 +378,7 @@
                           <div class="progress-group">
                             <div class="progress-group-header align-items-end">
                               <svg class="c-icon progress-group-icon">
-                                <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-globe-alt"></use>
+                                <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-globe-alt"></use>
                               </svg>
                               <div>Organic Search</div>
                               <div class="ml-auto font-weight-bold mr-2">191.235</div>
@@ -393,7 +393,7 @@
                           <div class="progress-group">
                             <div class="progress-group-header align-items-end">
                               <svg class="c-icon progress-group-icon">
-                                <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-facebook"></use>
+                                <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-facebook"></use>
                               </svg>
                               <div>Facebook</div>
                               <div class="ml-auto font-weight-bold mr-2">51.223</div>
@@ -408,7 +408,7 @@
                           <div class="progress-group">
                             <div class="progress-group-header align-items-end">
                               <svg class="c-icon progress-group-icon">
-                                <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-twitter"></use>
+                                <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-twitter"></use>
                               </svg>
                               <div>Twitter</div>
                               <div class="ml-auto font-weight-bold mr-2">37.564</div>
@@ -423,7 +423,7 @@
                           <div class="progress-group">
                             <div class="progress-group-header align-items-end">
                               <svg class="c-icon progress-group-icon">
-                                <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-linkedin"></use>
+                                <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-linkedin"></use>
                               </svg>
                               <div>LinkedIn</div>
                               <div class="ml-auto font-weight-bold mr-2">27.319</div>
@@ -444,7 +444,7 @@
                           <tr>
                             <th class="text-center">
                               <svg class="c-icon">
-                                <use xlink:href="assets/icons/coreui/free-symbol-defs.svg#cui-people"></use>
+                                <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-people"></use>
                               </svg>
                             </th>
                             <th>User</th>
@@ -457,7 +457,7 @@
                         <tbody>
                           <tr>
                             <td class="text-center">
-                              <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/1.jpg" alt="user@email.com"><span class="c-avatar-status bg-success"></span></div>
+                              <div class="c-avatar"><img class="c-avatar-img" src="/assets/img/avatars/1.jpg" alt="user@email.com"><span class="c-avatar-status bg-success"></span></div>
                             </td>
                             <td>
                               <div>Yiorgos Avraamu</div>
@@ -475,7 +475,7 @@
                             </td>
                             <td class="text-center">
                               <svg class="c-icon c-icon-xl">
-                                <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#cc-mastercard"></use>
+                                <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#cc-mastercard"></use>
                               </svg>
                             </td>
                             <td>
@@ -484,7 +484,7 @@
                           </tr>
                           <tr>
                             <td class="text-center">
-                              <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/2.jpg" alt="user@email.com"><span class="c-avatar-status bg-danger"></span></div>
+                              <div class="c-avatar"><img class="c-avatar-img" src="/assets/img/avatars/2.jpg" alt="user@email.com"><span class="c-avatar-status bg-danger"></span></div>
                             </td>
                             <td>
                               <div>Avram Tarasios</div>
@@ -502,7 +502,7 @@
                             </td>
                             <td class="text-center">
                               <svg class="c-icon c-icon-xl">
-                                <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#cc-visa"></use>
+                                <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#cc-visa"></use>
                               </svg>
                             </td>
                             <td>
@@ -511,7 +511,7 @@
                           </tr>
                           <tr>
                             <td class="text-center">
-                              <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/3.jpg" alt="user@email.com"><span class="c-avatar-status bg-warning"></span></div>
+                              <div class="c-avatar"><img class="c-avatar-img" src="/assets/img/avatars/3.jpg" alt="user@email.com"><span class="c-avatar-status bg-warning"></span></div>
                             </td>
                             <td>
                               <div>Quintin Ed</div>
@@ -529,7 +529,7 @@
                             </td>
                             <td class="text-center">
                               <svg class="c-icon c-icon-xl">
-                                <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#cc-stripe"></use>
+                                <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#cc-stripe"></use>
                               </svg>
                             </td>
                             <td>
@@ -538,7 +538,7 @@
                           </tr>
                           <tr>
                             <td class="text-center">
-                              <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"><span class="c-avatar-status bg-secondary"></span></div>
+                              <div class="c-avatar"><img class="c-avatar-img" src="/assets/img/avatars/4.jpg" alt="user@email.com"><span class="c-avatar-status bg-secondary"></span></div>
                             </td>
                             <td>
                               <div>Enéas Kwadwo</div>
@@ -556,7 +556,7 @@
                             </td>
                             <td class="text-center">
                               <svg class="c-icon c-icon-xl">
-                                <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#cc-paypal"></use>
+                                <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#cc-paypal"></use>
                               </svg>
                             </td>
                             <td>
@@ -565,7 +565,7 @@
                           </tr>
                           <tr>
                             <td class="text-center">
-                              <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"><span class="c-avatar-status bg-success"></span></div>
+                              <div class="c-avatar"><img class="c-avatar-img" src="/assets/img/avatars/5.jpg" alt="user@email.com"><span class="c-avatar-status bg-success"></span></div>
                             </td>
                             <td>
                               <div>Agapetus Tadeáš</div>
@@ -583,7 +583,7 @@
                             </td>
                             <td class="text-center">
                               <svg class="c-icon c-icon-xl">
-                                <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#cc-apple-pay"></use>
+                                <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#cc-apple-pay"></use>
                               </svg>
                             </td>
                             <td>
@@ -592,7 +592,7 @@
                           </tr>
                           <tr>
                             <td class="text-center">
-                              <div class="c-avatar"><img class="c-avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"><span class="c-avatar-status bg-danger"></span></div>
+                              <div class="c-avatar"><img class="c-avatar-img" src="/assets/img/avatars/6.jpg" alt="user@email.com"><span class="c-avatar-status bg-danger"></span></div>
                             </td>
                             <td>
                               <div>Friderik Dávid</div>
@@ -610,7 +610,7 @@
                             </td>
                             <td class="text-center">
                               <svg class="c-icon c-icon-xl">
-                                <use xlink:href="assets/icons/brands/brands-symbol-defs.svg#cc-amex"></use>
+                                <use xlink:href="/assets/icons/brands/brands-symbol-defs.svg#cc-amex"></use>
                               </svg>
                             </td>
                             <td>

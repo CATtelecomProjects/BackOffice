@@ -11,7 +11,7 @@
           <div class="card-header"><h4>Menu roles</h4></div>
             <div class="card-body">
                 <div class="row">
-                    <a class="btn btn-lg btn-primary" href="{{ route('roles.create') }}">Add new role</a>
+                    <a class="btn btn-success btn-sm" href="{{ route('roles.create') }}"> + Add new role</a>
                 </div>
                 <br>
                 <table class="table table-striped table-bordered datatable">
@@ -75,26 +75,26 @@
                                     {{ $role->updated_at }}
                                 </td>
                                 <td>
-                                    <a class="btn btn-success" href="{{ route('roles.up', ['id' => $role->id]) }}">
+                                    <a class="btn btn-success btn-sm" href="{{ route('roles.up', ['id' => $role->id]) }}">
                                         <i class="cil-arrow-thick-top"></i> 
                                     </a>
                                 </td>
                                 <td>
-                                    <a class="btn btn-success" href="{{ route('roles.down', ['id' => $role->id]) }}">
+                                    <a class="btn btn-success btn-sm" href="{{ route('roles.down', ['id' => $role->id]) }}">
                                         <i class="cil-arrow-thick-bottom"></i>  
                                     </a>
                                 </td>
                                 <td>
-                                    <a href="{{ route('roles.show', $role->id ) }}" class="btn btn-primary">Show</a>
+                                    <a href="{{ route('roles.show', $role->id ) }}" class="btn btn-primary btn-sm">Show</a>
                                 </td>
                                 <td>
-                                    <a href="{{ route('roles.edit', $role->id ) }}" class="btn btn-primary">Edit</a>
+                                    <a href="{{ route('roles.edit', $role->id ) }}" class="btn btn-primary btn-sm">Edit</a>
                                 </td>
                                 <td>
                                 <form action="{{ route('roles.destroy', $role->id ) }}" method="POST">
                                     @method('DELETE')
                                     @csrf
-                                    <button class="btn btn-danger">Delete</button>
+                                    <button class="btn btn-danger btn-sm">Delete</button>
                                 </form>
                                 </td>
                             </tr>
@@ -108,7 +108,6 @@
       </div>
     </div>
   </div>
-</div>
 
 @endsection
 
