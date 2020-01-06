@@ -8,7 +8,7 @@ namespace App\MenuBuilder;
 
 class FreelyPositionedMenus{
 
-    private static function renderDropdown($data, $prefixClass){
+    private static function renderDropdown($data, $prefixClass){       
         if(array_key_exists('slug', $data) && $data['slug'] === 'dropdown'){
             echo '<li class="' . $prefixClass . 'nav-item dropdown px-3">';
             echo '<a class="' . $prefixClass . 'nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">';
@@ -19,16 +19,21 @@ class FreelyPositionedMenus{
             echo '<div class="dropdown-menu">';
             self::renderDropdown( $data['elements'], $prefixClass );
             echo '</div></li>';
-        }else{
+        }else{            
             for($i = 0; $i < count($data); $i++){
                 if( $data[$i]['slug'] === 'link' ){
-                    echo '<a class="' . $prefixClass . 'nav-link dropdown-item" href="' . $data[$i]['href'] . '">';
-                    echo '<span class="' . $prefixClass . 'nav-icon"></span>' . $data[$i]['name'] . '</a>';
+                    if($data[$i]['hasIcon'] === true && $data[$i]['iconType'] === 'coreui'){
+                        $icon = '<i class="' . $data[$i]['icon'] . ' ' . $prefixClass . 'nav-icon"></i>&nbsp;';    
+                    }else{
+                        $icon = '';
+                    }
+                    echo '<a class="' . $prefixClass . 'nav-link dropdown-item" href="' . $data[$i]['href'] . '">';                    
+                    echo '<span class="' . $prefixClass . 'nav-icon"></span> '.$icon. $data[$i]['name'] . '</a>';                   
                 }elseif( $data[$i]['slug'] === 'dropdown' ){
                     self::renderDropdown( $data[$i], $prefixClass );
                 }
             }
-        }
+        }                
     }
 
     /**
@@ -45,7 +50,7 @@ class FreelyPositionedMenus{
                 echo '<a class="' . $prefixClass . 'nav-link" href="' . $d['href'] . '">';
                 if($d['hasIcon'] === true){
                     if($d['iconType'] === 'coreui'){
-                        echo '<i class="' . $d['icon'] . ' ' . $prefixClass . 'nav-icon"></i>';
+                        echo '<i class="' . $d['icon'] . ' ' . $prefixClass . 'nav-icon"></i>&nbsp;';
                     }
                 } 
                 echo $d['name'];
@@ -57,7 +62,7 @@ class FreelyPositionedMenus{
                 echo '<li class="' . $prefixClass . 'nav-title px-3">';
                 if($d['hasIcon'] === true){
                     if($d['iconType'] === 'coreui'){
-                        echo '<i class="' . $d['icon'] . ' ' . $prefixClass . 'nav-icon"></i>';
+                        echo '<i class="' . $d['icon'] . ' ' . $prefixClass . 'nav-icon"></i>&nbsp;';
                     }
                 } 
                 echo $d['name'];

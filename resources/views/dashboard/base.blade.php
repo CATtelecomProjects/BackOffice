@@ -1,12 +1,4 @@
 <!DOCTYPE html>
-<!--
-* CoreUI - Free Bootstrap Admin Template
-* @version v3.0.0-alpha.1
-* @link https://coreui.io
-* Copyright (c) 2019 creativeLabs Łukasz Holeczek
-* Licensed under MIT (https://coreui.io/license)
--->
-
 <html lang="en">
   <head>
     <base href="./">
@@ -31,9 +23,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/assets/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#FD9A0A">
     <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#FD9A0A">
     {{-- <link rel="shortcut icon" href="/assets/favicon/favicon.ico" /> --}}
     <!-- Icons-->
     <link href="{{ asset('/css/free.min.css') }}" rel="stylesheet"> <!-- icons -->
@@ -47,8 +39,6 @@
 
         <link href="{{ asset('/css/coreui-chartjs.css') }}" rel="stylesheet">
   </head>
-
-
 
   <body class="c-app">
     <div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
